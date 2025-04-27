@@ -12,6 +12,16 @@ bag_of_visual_words is package contains of next files:
 - <b>comparison.cpp</b> -- recreates cosine similarity algorithm via C++
 - <b>main.cpp</b> -- implements bag of visual words algorithm
 
+# How to run:
+Go to terminal and run the following commands
+```
+mkdir build/
+cd build/
+cmake ../
+make
+./main
+```
+
 # ToDo:
 1. Implement logic for k similar images, except just one
 2. Implement parallel calculation via CUDA
